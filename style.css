@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* 不会影响盒子大小 */
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: #f3f3f3;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+
+}
+
+.header {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.logo {
+    height: 100px;
+    width: 50px;
+    padding-left: 50px;
+    float: left;
+
+}
+
+.header2 ul li a {
+    display: block;
+    margin-left: 40px;
+    font-size: 20px;
+    color: black;
+    height: 80px;
+    line-height: 100px;
+
+}
+
+.header2 ul li a:hover {
+    border-bottom: 3px solid blue;
+    color: blue;
+
+}
+
+.header ul li {
+    float: left;
+}
+
+.header2 {
+    float: left;
+    margin-left: 100px;
+
+
+}
+
+.header3 {
+
+    float: left;
+    margin-left: 70px;
+    height: 100px;
+    line-height: 100px;
+
+}
+
+.header3 input {
+    display: block;
+    float: left;
+    line-height: 30px;
+    width: 200px;
+    border: 2px solid skyblue;
+    font-size: 14px;
+    color: gray;
+    margin-top: 30px;
+}
+
+.header3 button {
+    display: block;
+    float: left;
+    height: 34px;
+    width: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url("png图标/sousuoo.png");
+    margin-top: 30px;
+}
+
+.banner {
+    height: 400px;
+    background-color: rgb(212, 200, 183);
+}
+
+.banner2 {
+    position: relative;
+    width: 933px;
+    background: url(png图标/gdpt.jpg) no-repeat top center;
+
+}
+
+.bannersub {
+    position: relative;
+    height: 400px;
+    width: 200px;
+    background-color: rgb(0, 0, 0, 0.3);
+
+}
+
+.bannersub ul li {
+    height: 30px;
+    margin: 20px 0 0 20px;
+    line-height: 30px;
+    padding: 10px 20px;
+}
+
+.bannersub ul li a {
+    text-align: left;
+    font-size: 18px;
+    color: aliceblue;
+
+}
+
+.bannersub ul li span {
+    font-size: 18px;
+    color: aliceblue;
+    float: right;
+}
+
+.banner2 .zuojiantou {
+    position: absolute;
+    height: 80px;
+    width: 20px;
+    left: 200px;
+    top: 50%;
+    margin-top: -10px;
+    line-height: 80px;
+    color: aliceblue;
+    background: rgb(0, 0, 0, 0.3);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.banner2 .youjiantou {
+    position: absolute;
+    height: 80px;
+    width: 20px;
+    top: 50%;
+    right: 200px;
+    margin-top: -10px;
+    line-height: 80px;
+    text-align: right;
+    background: rgb(0, 0, 0, 0.3);
+    color: aliceblue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.banner2 .xiaodian {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -40px;
+    background: rgba(248, 249, 249, 0.3);
+    border-radius: 7px;
+
+}
+
+.xiaodian li {
+    width: 8px;
+    height: 10px;
+    float: left;
+    background-color: white;
+    border-radius: 50%;
+    margin: 4px 6px;
+}
+
+.tuijian {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    background-color: aliceblue;
+    margin-top: 5px;
+    box-shadow: 0 2px 3px 3px rgb(0, 0, 0, 0.3);
+    line-height: 60px;
+    z-index: 2;
+}
+
+.tuijian h2 {
+    float: left;
+    margin-left: 30px;
+}
+
+.tuijian ul {
+    float: left;
+
+    height: 40px;
+}
+
+.tuijian ul li {
+    float: left;
+    width: 40px;
+    margin-left: 80px;
+    height: 40px;
+}
+
+.tuijian ul li a {
+    padding: 0 40px;
+    border-left: 2px solid gray;
+}
+
+.tuijian .last {
+    float: right;
+    margin-right: 20px;
+}
+
+.box {
+    margin-top: 30px;
+
+}
+
+.box h3 {
+    float: left;
+}
+
+.boxhd {
+    height: 50px;
+
+}
+
+.box .boxhd a {
+    float: right;
+    font-size: 14px;
+}
+
+
+.box .boxbd ul {
+    width: 1225px;
+}
+
+.box .boxbd ul li {
+    height: 270px;
+    width: 228px;
+    float: left;
+    margin-right: 15px;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+.box .boxbd ul li img {
+    width: 100%;
+    height: 133px;
+
+}
+
+.box .boxbd ul li h4 {
+    margin: 20px 20px 20px 25px;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+
+}
+
+.boxbd .info {
+    margin: 0 20px 0 25px;
+    font-size: 12px;
+
+}
+
+.boxbd .info span {
+    color: brown;
+}
+
+.footer {
+    background-color: white;
+    height: 300px;
+}
+
+.footer .w {
+    padding: 35px;
+}
+
+.copyright {
+    float: left;
+}
+
+.copyright p {
+    margin: 20px 0 10px 50px;
+    color: gray;
+}
+
+.copyright img {
+    margin-left: 20px;
+}
+
+.copyright .app {
+    display: block;
+    height: 30px;
+    width: 110px;
+    font-size: 16px;
+    border: 1px solid blue;
+    background-color: white;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 52px;
+}
+
+.link {
+    float: right;
+}
+
+.link dl {
+    margin-top: 20px;
+    margin-right: 60px;
+    float: left;
+}
+
+.link dl dt {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+.link dl dd a {
+
+    margin-bottom: 7px;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+
+}
+
+.mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.4) url(png图标/石榴.png) no-repeat center;
+
+}
+
+.boxbd li:hover .mask {
+    display: block;
+    cursor: pointer;
+}
+
+.boxbd ul li {
+    position: relative;
+    box-shadow: 0 2px 3px 3px rgb(0, 0, 0, 0.3);
+}
+
+.bar {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -7px;
+    height: 15px;
+    width: 200px;
+    border: 1px solid rebeccapurple;
+    border-radius: 7px;
+    transform: rotate(270deg);
+}
+
+.bar .barin {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-radius: 7px;
+    transition: all 0.5s;
+    background-color: red;
+}
+
+.bar:hover .barin {
+    width: 100%;
+}
+
+.mod_copyright {
+    text-align: center;
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666;
+}
+
+.mod_copyright_links {
+    margin: 20px 0 15px 0;
+}
+
+.mod_copyright_info {
+    line-height: 18px;
+}
+.donghua{
+    transform: scale(1.5);
+}
